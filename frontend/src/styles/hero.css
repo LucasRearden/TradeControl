@@ -1,0 +1,47 @@
+.hero {
+    height: 80vh;
+    background: url("../assets/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Capa de oscurecimiento */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    font-weight: 800;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+    opacity: 0.9;
+  }
+  
+  .hero-btn {
+    padding: 12px 28px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #64b5ff;
+    color: #0b1220;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  
+  .hero-btn:hover {
+    transform: translateY(-2px);
+    background: #7dd3fc;
+  }
+  
